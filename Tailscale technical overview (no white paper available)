@@ -1,0 +1,19 @@
+### Is There a Tailscale White Paper?
+
+No, Tailscale does not appear to have a comprehensive "white paper" that serves as a foundational document outlining the entire protocol, architecture, or vision of the service in the traditional sense (similar to the WireGuard white paper, which details its core cryptographic and networking design). Tailscale's documentation is structured around practical guides, feature-specific explanations, and blog posts rather than a single, high-level academic-style paper.
+
+### The Next Best Thing
+
+The closest equivalents are Tailscale's detailed **technical overviews** and **blog posts**, which collectively provide deep insights into how Tailscale works, its security model, and its underlying architecture. These are openly available, well-maintained, and often more actionable than a dense white paper. Here's a breakdown of the top recommendations:
+
+#### 1. **Technical Overviews Section in Tailscale Docs** (Primary Starting Point)
+   - This is the most structured collection of in-depth technical articles, covering networking, security, and implementation details.
+   - Key articles include:
+     - **[Tailscale and the OSI Model](https://tailscale.com/kb/1456/osi)**: Explains how Tailscale operates across network layers, including WireGuard integration and userspace networking.
+     - **[Node Keys](https://tailscale.com/kb/1376/node-keys)**: Details authentication and key distribution in a tailnet (Tailscale's mesh network).
+     - **[DERP Servers](https://tailscale.com/kb/1376/derp-servers)**: Covers relay servers for NAT traversal and fallback connectivity.
+     - **[Zero Trust Networking (ZTN)](https://tailscale.com/kb/1123/zero-trust)**: Outlines Tailscale's zero-trust principles, end-to-end encryption, and comparisons to traditional VPNs.
+     - **[Tailnet Lock White Paper](https://tailscale.com/kb/1230/tailnet-lock-whitepaper)**: A feature-specific white paper on device approval and cryptographic signing for enhanced security (this is the only explicit "white paper" Tailscale publishes).
+   - Why it's the best alternative: It's comprehensive, up-to-date (as of late 2025), and directly from the source, with diagrams and code examples.
+
+If you're looking for something more academic or peer-reviewed, Tailscale draws heavily from the [WireGuard white paper](https://www.wireguard.com/papers/wireguard.pdf) (as it builds on WireGuard), and their docs reference it frequently. For the latest updates, check Tailscale's [blog](https://tailscale.com/blog) or [changelog](https://tailscale.com/changelog)—they often announce technical enhancements there. If this doesn't cover what you need, feel free to specify a focus area (e.g., security or deployment)!
